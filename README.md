@@ -1,7 +1,7 @@
 # Logistic_Regression_from_Scratch_on_a_NLP_task
 Sentiment analysis is a process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer's attitude towards a particular topic, product, etc. is positive, negative, or neutral.
 
-The main goal of this project is to implement the Logistic Regression from scratch for sentiment analysis on tweets.
+The main *goal* of this project is to `implement the Logistic Regression from scratch for sentiment analysis on tweets dataset`.
 
 Given a tweet, we will decide if it has a positive sentiment or a negative one. Specifically we will:
 
