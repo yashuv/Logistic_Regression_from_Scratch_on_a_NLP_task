@@ -62,6 +62,10 @@ Finally, at this stage, our linear regression classifier is ready, 
 and we can determine if it is a good or bad classifier.
 <br>
 
+The first three notebooks are for practice on particular given topic for better understanding on it.
+
+<a href="https://github.com/yashuv/Logistic_Regression_from_Scratch_on_a_NLP_task/blob/main/Logistic_Regression_from_scratch_for_sentiment_analysis.ipynb">Final Logistic Regression Implementation from Scratch</a>
+
 ### Conclusion
 I learned to preprocess tweet text and extract features from preprocessed text into numerical vectors, then build a binary classifier for tweets using a logistic regression. I also covered the intuition behind the cost function for logistic regression. <br>
 I had the opportunity to apply all of the aforementioned concepts and skills into practice. It was a fantastic learning experience. I appreciate and am grateful for the chance.
