@@ -20,18 +20,20 @@ I achieved the following learning goals:
 * Vocabulary creation
 * Supervised learning
 
-**Logistic regression** can be used for sentiment analysis by taking a set of labeled data and training a model to predict the sentiment of new, unlabeled data. The model can be used to classify new data points as positive or negative sentiment.<br>
+## Logistic regression
+Logistic regression can be used for sentiment analysis by taking a set of labeled data and training a model to predict the sentiment of new, unlabeled data. The model can be used to classify new data points as positive or negative sentiment.<br>
 Logistic regression is a supervised machine learning algorithm that can be used to predict a binary outcome. In binary classification, there are two possible outcomes: *positive (1)* and *negative (0)*. It is a statistical method for predicting the probability of an event occurring. In sentiment analysis, logistic regression can be used to predict the likelihood that a given text document contains a positive or negative sentiment.
 
-**Data pre-processing** is the process of preparing data for analysis. This includes cleaning data to remove missing or invalid values, transforming data to a format that is more suitable for analysis, and creating new variables from existing data.
+## Data pre-processing
+Data pre-processing is the process of preparing data for analysis. This includes cleaning data to remove missing or invalid values, transforming data to a format that is more suitable for analysis, and creating new variables from existing data.
 The data pre-processing steps we use are:
 * Eliminate handles and URLs.
 * Tokenize the string into words.
 * Remove stop words like "and, is, a, on, etc."
 * Stemming- or convert every word to its stem. Like the word "run" is the root of the word family, which includes 'running,' 'ran,''runner,' and 'runs.' You can use porter stemmer to take care of this.
 * Convert all your words to lower case.
-<br>
 
+## Vocabulary creation
 After we perform preprocessing, we represent the preprocessed text as a vector by building a **vocabulary** of words and doing **feature extraction** using the vocabulary to convert text into numerical representation. This process is important because it can help to reduce the amount of data that is needed to work with and it can also help to find relationships between the data.<br>
 In our case, we use the positive and negative frequencies of the words in the vocabulary to create a frequency dictionary, which maps a word and the class it appeared in (positive or negative) to the number of times that word appeared in its corresponding class.<br>
 Hence, we end up with the following feature vector of dimension 3, i.e., [bias, positive_feature, negative_feature]. <br>
@@ -46,8 +48,8 @@ $$sigmoid(x) = \frac{1}{1 + e^{-x}}$$
 
 where x is the input variable and e is the natural logarithm. The output of the sigmoid function is always between 0 and 1.
 
-**Training Logistic Regression**
-<br>
+## Training Logistic Regression
+
 Gradient descent is an optimization algorithm used to find the values of parameters (coefficients) of a function (f) that minimizes a cost function (cost).<br>
 
 Steps for training logistic regression model:
@@ -60,10 +62,9 @@ Finally, at this stage, our linear regression classifier is ready, 
 and we can determine if it is a good or bad classifier.
 <br>
 
-**Conclusion**:<br>
+### Conclusion
 I learned to preprocess tweet text and extract features from preprocessed text into numerical vectors, then build a binary classifier for tweets using a logistic regression. I also covered the intuition behind the cost function for logistic regression. <br>
 I had the opportunity to apply all of the aforementioned concepts and skills into practice. It was a fantastic learning experience. I appreciate and am grateful for the chance.
-<br>
 
 Thank you, and happy learning!<br>
 
