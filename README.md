@@ -62,7 +62,7 @@ Finally, at this stage, our linear regression classifier is ready, 
 and we can determine if it is a good or bad classifier.
 <br>
 
-The first three notebooks are for practice on particular given topic for better understanding on it.
+*The first three notebooks are practice lab exercise on particular given topic for better understanding on it. These are recommended to learn for grasp on the concept.*
 
 <a href="https://github.com/yashuv/Logistic_Regression_from_Scratch_on_a_NLP_task/blob/main/Logistic_Regression_from_scratch_for_sentiment_analysis.ipynb">Final Logistic Regression Implementation from Scratch</a>
 
